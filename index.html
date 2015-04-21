@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>+ - An app that can extract positive/negative sentiment from a given text or webpage url</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel='icon' type='image/png' href='https://s3.amazonaws.com/alchemyapi/img/favicon.png' />
+    <link rel="stylesheet" href="reset.css" media="screen">
+    <link rel="stylesheet" href="style.css" media="screen">
+</head>
+
+<body>
+
+    <header>
+        <div class="moreInfo"><a href="README.txt">+ MORE INFO</a></div>
+        <div class='container'>
+            
+            <div class='page-header'>
+                <h4>INTRODUCING THE APP THAT CAN EXTRACT POSITIVE/NEGATIVE SENTIMENT FROM LANGUAGE</h4>
+
+                <h1 id="logo">+ -</h1>
+
+            </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <textarea id='userInput' placeholder="Paste text you want evaluated here"></textarea>
+            <h3>OR</h3>
+            <textarea id='urlInput' placeholder="Paste URL of the webpage you want evaluated here"></textarea>
+            <input type="submit" id="submitButton" value='Check it!'>
+            <p id="warning">*NOTE: If you do not get a response from your pasted in text – delete any hash tag symbols or other special characters &amp; try again.</p>
+        </div>
+
+        
+        <div class="response">
+            <!--The div that is populated by api response-->
+        </div>
+
+    </main>
+
+        
+    <footer>
+        <div class="container">
+
+            <div style="  height: 80px;">
+                <a href="mailto:tim@timscroggs.co?Subject=Hello%20,%20about%20this%20app%20+%20-" target="_blank" class="social mail">Email</a>
+                <a href="https://www.facebook.com/tim.scroggs" target="_blank" class="social facebook">Facebook</a>
+                <a href="https://twitter.com/timscroggs" target="_blank" class="social twitter">Twitter</a>
+                <!-- AddThis Button BEGIN -->
+                <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4e99176315b50c0c"><img src="" alt="Bookmark and Share" style="
+                height: 39px;
+                width: 39px;
+                background: url(sprite.png) no-repeat transparent;
+                text-indent: -9999px;
+                overflow: hidden;
+                display: inline-block;
+                margin-right: 10px;
+                vertical-align: top;">
+                </a>
+                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e99176315b50c0c"></script>
+
+                <!-- AddThis Button END -->
+            </div>
+
+
+
+            <p class="footer">Concept & Creation by <a href="http://timscroggs.co">Tim Scroggs</a> &#124; Powered by: <a href="http://www.alchemyapi.com/">AlchemyAPI</a></p>
+            
+        </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
